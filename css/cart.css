@@ -1,0 +1,82 @@
+table {
+    width: 100%;
+    margin-top: 1m;
+    padding: 2em;
+    border-collapse: collapse;
+    caption-side: bottom;
+    margin-bottom: 2em;
+}
+
+table,
+th,
+td {
+    border: solid 2px #f1f1f1;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+.container {
+    margin: 2em 3em;
+}
+
+.section-title {
+    color: var(--navy);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.form-number {
+    padding: 10px;
+    width: 40px;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.btn-info {
+    width: 100%;
+    background-color: var(--info);
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: var(--danger);
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    width: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-danger img{
+    width: 20px;
+    height: 20px;
+}
